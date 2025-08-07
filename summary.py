@@ -4,7 +4,7 @@ Summary script that uses all modules to achive disk cleanup feature.
 """
 
 import check_disk
-import clear_recycle_bin
+import cleanup
 import clear_browser_cache
 import clean_old_apt
 
@@ -32,7 +32,7 @@ def main():
     if low_space:
         print("\nRunning cleanup tasks...\n")
 
-        clear_recycle_bin.clear_bin()
+        cleanup.clear_bin()
         actions["recycle bin"] = True
 
         clear_browser_cache.clear_cache()
