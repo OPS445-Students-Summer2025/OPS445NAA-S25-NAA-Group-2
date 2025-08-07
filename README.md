@@ -14,7 +14,7 @@ This is a Python-based disk cleanup tool developed as a group project for OPS445
 | File | Description |
 |------|-------------|
 | `check_disk.py` | Checks if free disk space is below 10% |
-| `clear_recycle_bin.py` | Deletes all files in the user's trash |
+| `cleanup.py` | Deletes all files in the user's trash |
 | `clear_browser_cache.py` | Deletes browser cache files (Linux only) |
 | `clean_old_apt.py` | Runs `apt-get autoremove` to clean old packages |
 | `summary.py` | Main script to coordinate and report all cleanup steps |
