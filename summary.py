@@ -5,7 +5,7 @@ Summary script that uses all modules to achive disk cleanup feature.
 
 import check_disk
 import cleanup
-import clear_browser_cache
+import browser_cache_clear
 import clean_old_apt
 
 def summary_report(actions_taken):
