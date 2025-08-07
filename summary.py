@@ -33,13 +33,13 @@ def main():
         print("\nRunning cleanup tasks...\n")
 
         cleanup.main()
-        actions["Recycle Bin"] = True
+        actions["recycle bin"] = True
 
         browser_cache_clear.clear_cache()
-        actions["Browser Cache"] = True
+        actions["browser cache"] = True
 
         clean_old_apt.clean_apt()
-        actions["APT Cleanup"] = True
+        actions["APT cleanup"] = True
     else:
         print("\nDisk space is sufficient; no cleanup needed.")
 
