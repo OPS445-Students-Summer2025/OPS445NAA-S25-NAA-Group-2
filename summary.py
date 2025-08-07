@@ -32,14 +32,14 @@ def main():
     if low_space:
         print("\nRunning cleanup tasks...\n")
 
-        cleanup.clear_bin()
-        actions["recycle bin"] = True
+        cleanup.main()
+        actions["Recycle Bin"] = True
 
-        clear_browser_cache.clear_cache()
-        actions["browser cache"] = True
+        browser_cache_clear.clear_cache()
+        actions["Browser Cache"] = True
 
         clean_old_apt.clean_apt()
-        actions["APT cleanup"] = True
+        actions["APT Cleanup"] = True
     else:
         print("\nDisk space is sufficient; no cleanup needed.")
 
