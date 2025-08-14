@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-# seneca id: rbhandari17
-
+# seneca id: rbhandari17@myseneca.ca
+#seneca.no:143292233
 import shutil
 import argparse
 
